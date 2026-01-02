@@ -1,6 +1,6 @@
-#UPc Project
+#Project
 
-setwd("C:/Users/Ordenador/Desktop/UPC Project/Bases")
+setwd("")
 
 library(readxl)
 library(data.table)
@@ -210,3 +210,4 @@ base_log$lmkval<-log(base_log$total_market_value)
 summary(base_log)
 sd(base_log$log_lvalue)
 sd(base_log$lmkval)
+
